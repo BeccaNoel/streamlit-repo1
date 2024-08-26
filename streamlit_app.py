@@ -11,7 +11,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 st.title("🦜🔗 Demo App")
 
-openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+openai_api_key = st.sidebar.text_input("OPENAI_API_KEY", type="password")
 
 
 def generate_response(input_text):
