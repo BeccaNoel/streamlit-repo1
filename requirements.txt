@@ -1,6 +1,11 @@
 streamlit
 openai
-langchain
 sentence-transformers>=2.6.0
-langsmith>=0.0.21
-langchain>=0.2.0
+langchain==0.2.10
+langchain-community==0.2.9
+langchain-core==0.2.22
+langchain-experimental==0.0.62
+langchain-openai==0.1.17
+langchain-text-splitters==0.2.2
+langcodes==3.4.0
+langsmith==0.1.85
